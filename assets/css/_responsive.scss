@@ -1,0 +1,345 @@
+@charset 'UTF-8';
+
+@media only screen and (max-width: 767px) {
+    // .nav-bar {
+    //     display: none;
+    // }
+
+    // .nav-bar-m {
+    //     display: block;
+    // }
+
+    .main-home {
+        #main-slide {
+            .slide-item {
+                .head {
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                }
+
+                .line-btm {
+                    width: 80px;
+                    height: 2px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .main-header {
+        #items-header-slide {
+            .slide-item {
+                height: 20vh;
+                margin-top: 75px;
+
+                .head {
+                    margin-top: 0px;
+                    font-size: 22px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .iphonex {
+        position: relative !important;
+        top: 0em;
+        left: 0em;
+    }
+
+    // .iphonex-white {
+    //     display: none;
+    // }
+
+    .w-50,
+    .w-60 {
+        width: 100% !important;
+    }
+
+    .head-our_projects {
+        position: relative !important;
+        top: 0 !important;
+    }
+
+    .box-desc {
+        .title {
+            font-size: 16px;
+        }
+
+        .desc {
+            font-size: 14px;
+            margin: 10px 0px;
+        }
+    }
+
+    .our-projects {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .head {
+            font-size: 22px;
+        }
+    }
+
+    .our-projects-desc {
+        padding: 25px 10px;
+    }
+
+    .our-projects-desc-pdr {
+        padding-right: 10px !important;
+    }
+
+    .our-projects-img {
+        position: relative;
+        right: 0;
+        top: 0em;
+    }
+
+    .mt-4 {
+        margin-top: 0rem !important;
+    }
+
+    .mt-5 {
+        margin-top: 0rem !important;
+    }
+
+    .sec-content {
+        padding: 25px 0px;
+    }
+
+    .box-detail-app {
+        margin-top: 70px;
+
+        .show-icon {
+            display: flex;
+            justify-content: center;
+
+            i {
+                top: -50px;
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: #fff;
+                border: 2px solid #CC504C;
+                color: #CC504C;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 35px;
+                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+            }
+        }
+
+        .title {
+            font-size: 16px;
+        }
+    }
+
+    .digital-agency {
+        .head {
+            font-size: 22px;
+        }
+
+        .line-btm {
+            width: 80px;
+            margin: 10px auto;
+        }
+
+        .desc {
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+
+    .contact-us {
+        .head {
+            font-size: 22px;
+        }
+
+        .line-btm {
+            width: 80px;
+            margin: 10px auto;
+        }
+
+        .desc {
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+
+    .list-contact-social {
+        margin-top: 10px;
+
+        li {
+            width: 100%;
+            margin: 15px 0px;
+            font-size: 12px;
+        }
+    }
+
+    .sec-footer {
+        .copy-right {
+            margin: 0px auto;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .list-menu-footer {
+            display: none;
+        }
+    }
+
+    .desc-position {
+        padding: 20px;
+
+        .head {
+            font-size: 18px;
+        }
+    }
+
+    .careers .desc-careers {
+        width: 100%;
+    }
+
+    .careers .read-more {
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    // .nav-bar {
+    //     display: none;
+    // }
+
+    // .nav-bar-m {
+    //     display: block;
+    // }
+
+    .main-home {
+        #main-slide {
+            .slide-item {
+                height: 50vh;
+            }
+        }
+    }
+
+    .iphonex {
+        // position: relative !important;
+        top: -9em;
+        left: 2em;
+    }
+
+    // .iphonex-white {
+    //     display: none;
+    // }
+
+    .mt-4 {
+        margin-top: 6rem !important;
+    }
+
+    .mt-5 {
+        margin-top: 0rem !important;
+    }
+
+    .our-projects {
+        margin-top: 150px;
+        margin-bottom: 0px;
+    }
+
+    .box-desc {
+        .title {
+            font-size: 20px;
+        }
+
+        .desc {
+            font-size: 16px;
+            margin: 10px 0px;
+        }
+    }
+
+    .box-detail-app .title {
+        font-size: 18px;
+    }
+
+    .our-projects-desc {
+        padding: 35px;
+    }
+
+    .main-header {
+        #items-header-slide {
+            .slide-item {
+                height: 25vh;
+                margin-top: 75px;
+
+                .head {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    .our-projects-desc-pdr {
+        padding-right: 90px !important;
+    }
+
+    .digital-agency {
+        .desc {
+            width: 100%;
+            margin: 20px auto;
+        }
+    }
+
+    .list-contact-social {
+        width: 100%;
+        margin-top: 50px;
+
+        li {
+            margin-top: 30px;
+            width: 50%;
+
+            p {
+                width: 70%;
+                margin: 0px auto;
+            }
+        }
+    }
+
+    .sec-footer {
+        .copy-right {
+            margin: 0px auto;
+            font-size: 12px;
+        }
+
+        .list-menu-footer {
+            display: none;
+        }
+    }
+
+    .desc-position {
+        padding: 20px;
+    }
+
+    .careers .desc-careers {
+        width: 100%;
+    }
+
+    .careers .read-more {
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar .main-menu .menu-link {
+        font-size: 12px;
+    }
+
+    .list-contact-social {
+        li {
+            width: 50%;
+            margin: 30px 0px;
+        }
+    }
+}
